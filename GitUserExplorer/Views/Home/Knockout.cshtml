@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Git | Knockout";
+}
+
+<div class="row">
+
+    <h2>Knockout</h2>
+
+    <form id="searchForm">
+        <div class="input-group">
+            <input type="text" class="form-control" id="searchText" name="inputSearch" placeholder="Type a github username here" data-bind="value: searchText, valueUpdate: 'afterkeydown'" required />
+            <span class="input-group-btn">
+                <span class="btn btn-success btn-file" id="searchButton" data-bind='click: searchForUser'>
+                    <i class="fa fa-search"></i>
+                    Search...
+                </span>
+            </span>
+        </div>
+        <label data-bind='visible: searchText.hasError, text: searchText.validationMessage'> </label>
+    </form>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <img data-bind="attr:{src: user().avatar_url}" class="img-thumbnail img-responsive">
+                <div class="caption">
+                    <h3 id="name"><span data-bind="text: user().name"></span></h3>
+                    <p id="location"><span data-bind="text: user().location"></span></p>
+                    <p>
+                        <a data-bind="attr: { href: user().html_url }" class="btn btn-primary" role="button" id="viewUserProfile" target="_blank">View</a> <a data-bind="attr: { href: user().html_url + '/followers' }" class="btn btn-default" role="button">Followers</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5 col-md-7 col-lg-9">
+            <table class="table table-striped" id="reposTable">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Star Gazers</th>
+                    <th>Description</th>
+                    <th>Language</th>
+                    <th>Created</th>
+                </tr>
+                </thead>
+                <tbody data-bind="foreach: repos">
+                <tr>
+                    <td>
+                        <span data-bind="text: ($index() + 1)"></span>
+                    </td>
+                    <td>
+                        <span data-bind="text: stargazers_count"></span>
+                    </td>
+                    <td>
+                        <a data-bind="attr: { href: html_url }" target="_blank"><span data-bind="text: description"></span></a>
+                    </td>
+                    <td>
+                        <span data-bind="text: language"></span>
+                    </td>
+                    <td>
+                        <span data-bind="text: moment(created_at).format('L')"></span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="~/Scripts/knockout.min.js"></script>
+    <script src="~/Scripts/moment.min.js"></script>
+    <script src="~/Scripts/Knockout/gitViewer-knockout-js.js"></script>
+}

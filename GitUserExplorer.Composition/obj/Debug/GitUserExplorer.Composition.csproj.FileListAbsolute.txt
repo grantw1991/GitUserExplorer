@@ -1,0 +1,11 @@
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\GitUserExplorer.Composition.dll
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\GitUserExplorer.Composition.pdb
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\GitUserExplorer.Domain.Common.dll
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\GitUserExplorer.Domain.dll
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\Ninject.dll
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\GitUserExplorer.Domain.Common.pdb
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\GitUserExplorer.Domain.pdb
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\bin\Debug\Ninject.xml
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\obj\Debug\GitUserExplorer.Composition.csprojResolveAssemblyReference.cache
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\obj\Debug\GitUserExplorer.Composition.dll
+D:\Development\Web\GitUserExplorer\GitUserExplorer.Composition\obj\Debug\GitUserExplorer.Composition.pdb

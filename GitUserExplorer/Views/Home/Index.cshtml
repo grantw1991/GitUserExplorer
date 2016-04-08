@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Git | About";
+}
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <h2>Technical Spec:</h2>
+        <ul>
+            <li>
+                <p>Create an ASP.Net MVC website with a page containing a text box to enter a name in and a submit button to search GitHub for the name.</p>
+            </li>
+            <li>
+                <p>Have the back end call the GitHub users API (e.g. <a href="https://api.github.com/users/robconery" target="_blank">https://api.github.com/users/robconery</a>) and get the users name, location and avatar url from the returned json. Use the repos_url value to get a list of all the repos for the user.</p>
+            </li>
+            <li>
+                <p>On the results page, show the username, location, avatar and the 5 repos with the highest stargazer_count.</p>
+            </li>
+            <li>
+                <p>Use this opportunity to show us what you know, even if you wouldn’t ordinarily use the concepts in such a trivial example.</p>
+            </li>
+            <li>
+                <p>Upload your work to GitHub and send us the url of the repository. If you don’t have a GitHub account you can register for a free one at https://github.com/join. Please make sure that your repository is a public one.</p>
+            </li>
+        </ul>
+
+        <h2>Design Decisions</h2>
+        <p>
+            From reading the spec AngularJS stands out to me as the obvious answer as the API can be accessed using the $http directive as well as the data for the repo's can be sorted and filtered easily. However, for the purpose of the task at hand
+            I have decided to create the solution using <a href="https://angularjs.org/">AngularJS</a>, <a href="http://knockoutjs.com/" target="_blank">KnockoutJS</a> and just plain <a href="https://jquery.com/">JavaScript / JQuery</a>
+            (without any library help), from this I will compare and contrast the technologies that I have used. I will be using <a href="http://getbootstrap.com/">Boostrap</a> for the styling to make it responsive for mobile and tablet devices with some
+            icons from <a href="https://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a>.
+        </p>
+    </div>
+    
+</div>
