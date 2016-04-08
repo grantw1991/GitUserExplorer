@@ -14,11 +14,17 @@
             </div>
             <div class="panel-body">
                 <h4>Readability:</h4>
-                <p>The readability of the code to me seems quite pleasent to read and fairly maintainable.</p>
+                <p>The readability of the code to me seems quite pleasent to read and fairly maintainable. Looking through the cshtml all of the ng attributes make sense so it could be easily altered if required.</p>
                 <h4>Handling Data:</h4>
-                <p>Handling data in AngularJS is not only easy and concise but it is very clear for the developers to read.</p>
+                <p>
+                    Handling data in AngularJS is not only easy and concise but it is very clear for the developers to read. Using the ng-repeat I was able to iterate through each of the repositories and then sort
+                    them in order by startgazers_count, I also added another overload called limitBy which took the first x iterations.
+                </p>
                 <h4>Power:</h4>
-                <p>AngularJS is very powerful, data binding alone is impressive but it has many more key features to than that, such as handling http requests, logging, templating and it has been fully tested.</p>
+                <p>
+                    AngularJS is very powerful, data binding alone is impressive but it has many more key features to than that. Because AngularJS was build using dependancy injection it has allowed for many overload
+                    variables such as $http for http requests, $log for logging of the application, $scope for the current scope and so on.
+                </p>
                 <hr />
                 <p>Overall Score: 10/10</p>
             </div>
@@ -32,11 +38,14 @@
                 <h4>Readability:</h4>
                 <p>The readability of the code is okay, it took me a while to get used to handling the data as it was the first time I really delved into Knockout so I can imagine that it would be written a lot nicer.</p>
                 <h4>Handling Data:</h4>
-                <p>For me the functionality to handle the data wasn't as obvious as I thought Angular was, perhaps I just found the documentation on Angular better.</p>
+                <p>
+                    For me the functionality to handle the data wasn't as obvious as I thought Angular was, perhaps I just found the documentation on Angular better. The other downside to when handling data is that
+                    there didn't appear to be in functionality for sorting an array or for limiting an array like AngularJS so this had to be done manually using JavaScript.
+                </p>
                 <h4>Power:</h4>
                 <p>
-                    KnockoutJS is powerful for binding, however when coming to do some more complex operations I noticed that Angular has the edge. I can't really see an advantage of using Knockout over Angular, I think once AngularJS 2 get
-                    fully released KnockoutJS will eventually be in the shadow.
+                    KnockoutJS is powerful for data binding, however when coming to do some more complex operations I noticed that Angular has the edge. I can't really see an advantage of using Knockout over Angular, I think once AngularJS 2 get
+                    fully released KnockoutJS will eventually fade away as most developers would be moving to the superior AngularJS.
                 </p>
                 <hr />
                 <p>Overall Score: 7/10</p>
@@ -49,12 +58,21 @@
             </div>
             <div class="panel-body">
                 <h4>Readability:</h4>
-                <p>Even for a small app like this one just using pure Javascript with JQuery feels and looks quite clunky and looks messy. The sort of code which in time with more functionality added would be fairly unmaintainable for a new programmer.</p>
+                <p>
+                    Even for a small app like this one just using pure Javascript with JQuery feels and looks quite clunky and untidy.
+                    The sort of code which in time with more functionality added would be fairly unmaintainable for a new programmer.
+                </p>
                 <h4>Handling Data:</h4>
-                <p>Handling the data using stanard ajax requests is fairly easy, seen as the data is already in the json format it can be parsed easily.</p>
+                <p>
+                    Handling the data using stanard ajax requests is fairly easy, seen as the data is already in the json format it can be parsed easily. However using the standard Ajax calls requires a few more
+                    properties, so each call takes up more lines than in Angular.
+                </p>
                 <h4>Power:</h4>
-                <p>Probably the only good thing about using just Javascript and JQuery in this scenario is that it is powerful and it is easy to code with.</p>
-                <hr/>
+                <p>
+                    Probably the only good thing about using just Javascript and JQuery in this scenario is that it is powerful in the sense that you can do anything that the other two technologies can do
+                    hoewever you have to build up the elements yourself rather than bind the data to them.
+                </p>
+                <hr />
                 <p>Overall Score: 4/10</p>
             </div>
         </div>

@@ -36,7 +36,6 @@ D:\Development\Web\GitUserExplorer\GitUserExplorer\bin\Newtonsoft.Json.xml
 D:\Development\Web\GitUserExplorer\GitUserExplorer\bin\System.Net.Http.Formatting.xml
 D:\Development\Web\GitUserExplorer\GitUserExplorer\bin\System.Web.Http.xml
 D:\Development\Web\GitUserExplorer\GitUserExplorer\bin\System.Web.Http.WebHost.xml
-D:\Development\Web\GitUserExplorer\GitUserExplorer\obj\Debug\GitUserExplorer.csprojResolveAssemblyReference.cache
 D:\Development\Web\GitUserExplorer\GitUserExplorer\obj\Debug\GitUserExplorer.dll
 D:\Development\Web\GitUserExplorer\GitUserExplorer\obj\Debug\GitUserExplorer.pdb
 D:\Development\Web\GitUserExplorer\GitUserExplorer\bin\WebActivatorEx.dll
