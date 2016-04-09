@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿(function () {
 
     $("#searchForm").validate({
         rules: { inputSearch: { required: true } },
@@ -93,7 +93,8 @@
             var innerTr = $('<tr>');
             var body1 = $('<td>').text(i + 1);
             var body2 = $('<td>').text(repos[i].stargazers_count);
-            var body3 = $('<td>').text(repos[i].description);
+            var urlLink = $('<a target="_blank">').attr("href", repos[i].html_url).text(repos[i].description);
+            var body3 = $('<td>').append(urlLink);
             var body4 = $('<td>').text(repos[i].language);
             var body5 = $('<td>').text(moment(repos[i].created_at).format('DD/MM/YYYY'));
             innerTr.append(body1, body2, body3, body4, body5);
@@ -102,4 +103,4 @@
 
         tbody.appendTo($('#reposTable'));
     }
-});
+})();

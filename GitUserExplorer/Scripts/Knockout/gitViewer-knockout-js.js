@@ -20,6 +20,7 @@
     var ViewModel = function () {
 
         var self = this;
+        self.showErrorMessage = ko.observable(false);
         self.searchText = ko.observable().extend({ required: "Enter a github user" });
         self.user = ko.observable({ name: "No User", location: "...", avatar_url: "https://help.github.com/assets/images/help/profile/identicon.png", repos_url: "", html_url: '#' });
         self.repos = ko.observable([]);
@@ -32,6 +33,8 @@
 
         // binding for search button click
         self.searchForUser = function () {
+
+            self.showErrorMessage(self.searchText.hasError);
 
             if (self.searchText() === undefined || self.searchText() === null || self.searchText() === '')
                 return;
