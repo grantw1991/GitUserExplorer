@@ -1,7 +1,0 @@
-D:\Development\Web\GitUserExplorer\GitUserExplorer.Domain\bin\Debug\GitUserExplorer.Domain.dll
-D:\Development\Web\GitUserExplorer\GitUserExplorer.Domain\bin\Debug\GitUserExplorer.Domain.pdb
-D:\Development\Web\GitUserExplorer\GitUserExplorer.Domain\bin\Debug\GitUserExplorer.Domain.Common.dll
-D:\Development\Web\GitUserExplorer\GitUserExplorer.Domain\bin\Debug\GitUserExplorer.Domain.Common.pdb
-D:\Development\Web\GitUserExplorer\GitUserExplorer.Domain\obj\Debug\GitUserExplorer.Domain.csprojResolveAssemblyReference.cache
-D:\Development\Web\GitUserExplorer\GitUserExplorer.Domain\obj\Debug\GitUserExplorer.Domain.dll
-D:\Development\Web\GitUserExplorer\GitUserExplorer.Domain\obj\Debug\GitUserExplorer.Domain.pdb
